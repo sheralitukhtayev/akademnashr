@@ -16,7 +16,7 @@
 .sitenav-link {
   width: 92px;
   top: 0.5px;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   text-decoration: none;
   size: 13px;
   line-height: 15.23px;
@@ -29,7 +29,7 @@
  top: 97px;
  background-color: #252420;
  color: #fff;
- font-family: 'Roboto', sans-serif;
+ /* font-family: 'Roboto', sans-serif; */
 }
 .hero-content {
   width: 387px;
@@ -56,14 +56,14 @@
   background-color: #ff7500;
   border-radius: 4px;
   text-decoration: none;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   color: #fff;
   letter-spacing: 0.5px;
 }
 .feature {
   width: 1440px;
   top: 584px;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
 }
 .feature-list ul {
   list-style: none;
@@ -95,7 +95,7 @@
 .sale {
   width: 1100px;
   top: 1555px;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   color: #fff;
   background-color: #252420;
 }
@@ -144,7 +144,7 @@ footer {
   background-color: rgba(37, 36,32, 0.5);
 }
 .footer-bottom {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   width: 1100px;
   top: 2441px;
 }
