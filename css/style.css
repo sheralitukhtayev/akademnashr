@@ -14,7 +14,7 @@ body  {
 .site-nav ul {
   list-style: none;
 }
-.site-nav a {
+.sitenav-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
