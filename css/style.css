@@ -30,8 +30,20 @@ body  {
   /* font-family: 'Roboto', sans-serif; */
   text-decoration: none;
 }
+.main-link {
+  font-size: 13px;
+  width: 152px;
+  height: 39px;
+  background-color: #ff7500;
+  border-radius: 4px;
+  text-decoration: none;
+  /* font-family: 'Roboto', sans-serif; */
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  font-weight: bold;
+}
 .hero {
- width: 1440px;
+  width: 1440px;
  top: 97px;
  background-color: #252420;
  color: #fff;
@@ -41,11 +53,17 @@ body  {
   width: 387px;
 }
 .hero-heading {
+  font-family: "Roboto Condensed";
   width: 339px;
+  height: 96px;
   font-weight: bold;
   font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.5px;
+  color: #fff;
 }
 .hero-text {
+  font-family: 'Roboto';
   width: 387px;
   font-size: 16px;
   line-height: 150%;
@@ -56,16 +74,6 @@ body  {
   height: 3px;
   background-color: #ff7500;
 }
-.main-link {
-  width: 152px;
-  height: 39px;
-  background-color: #ff7500;
-  border-radius: 4px;
-  text-decoration: none;
-  /* font-family: 'Roboto', sans-serif; */
-  color: #fff;
-  letter-spacing: 0.5px;
-}
 .feature {
   width: 1440px;
   top: 584px;
@@ -75,6 +83,8 @@ body  {
   list-style: none;
 }
 .feature-heading {
+  font-family: 'Roboto Condensed';
+  font-weight: 700;
   color: #000;
   width: 435px;
   height: 172px;
@@ -83,12 +93,15 @@ body  {
   letter-spacing: 0.5px;
 }
 .featurelist-heading {
+  font-family: 'Roboto Condensed';
   width: 214px;
   font-size: 24px;
   letter-spacing: 0.5px;
   color: #000;
 }
 .featurelist-text {
+  font-family: 'Roboto';
+  line-height: 150%;
   width: 314px;
   font-size: 16px;
   letter-spacing: 0.5px;
@@ -106,6 +119,7 @@ body  {
   background-color: #252420;
 }
 .sale-heading {
+  font-family: 'Roboto Condensed';
   width: 373px;
   height: 96px;
   font-size: 40px;
@@ -113,6 +127,8 @@ body  {
   letter-spacing: 0.5px;
 }
 .sale-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   size: 16px;
   line-height: 24px;
   letter-spacing: 0.5px;
@@ -120,6 +136,8 @@ body  {
   height: 48px;
 }
 .sale-textt {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   size: 16px;
   line-height: 24px;
   letter-spacing: 0.5px;
@@ -155,6 +173,8 @@ footer {
   top: 2441px;
 }
 .footer-group{
+  font-family: 'Roboto';
+  font-weight: 400;
   display: inline-block;
   text-align: left;
   width: 224px;
