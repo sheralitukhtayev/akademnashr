@@ -12,6 +12,7 @@ body h1 {
 }
 .site-nav ul {
   list-style: none;
+  font-weight: 400;
 }
 .sitenav-link {
   width: 92px;
