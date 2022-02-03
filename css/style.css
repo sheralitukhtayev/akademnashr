@@ -15,10 +15,13 @@ body  {
   list-style: none;
 }
 .site-nav a {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
-  size: 13px;
-  line-height: 15.23px;
+  font-size: 13px;
+  line-height: 15px;
   letter-spacing: 1px;
+  text-transform: uppercase;
   color: #000;
 }
 .sitenav-link {
@@ -26,7 +29,6 @@ body  {
   top: 0.5px;
   /* font-family: 'Roboto', sans-serif; */
   text-decoration: none;
-  text-transform: uppercase;
 }
 .hero {
  width: 1440px;
