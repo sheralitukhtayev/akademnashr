@@ -1,5 +1,6 @@
-body h1 {
+body  {
   font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 .site-header-cap {
   background-color: #ff7500;
@@ -12,18 +13,20 @@ body h1 {
 }
 .site-nav ul {
   list-style: none;
-  font-weight: 400;
+}
+.site-nav a {
+  font-weight: 500;
+  size: 13px;
+  line-height: 15.23px;
+  letter-spacing: 1px;
+  color: #000;
 }
 .sitenav-link {
   width: 92px;
   top: 0.5px;
   /* font-family: 'Roboto', sans-serif; */
   text-decoration: none;
-  size: 13px;
-  line-height: 15.23px;
-  letter-spacing: 1px;
   text-transform: uppercase;
-  color: #000;
 }
 .hero {
  width: 1440px;
