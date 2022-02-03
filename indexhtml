@@ -16,7 +16,7 @@
 <body>
   <hr class="site-header-cap">
   <a href=" index.html">
-    <img src"image/logo.png" alt="">
+    <img src="img/logo.svg" alt="">
   </a>
   <header class="site-header">
       <img src="img/logo.svg" alt="">
