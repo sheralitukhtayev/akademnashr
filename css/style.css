@@ -68,9 +68,25 @@ body  {
  background-color: #252420;
  color: #fff;
  /* font-family: 'Roboto', sans-serif; */
+ position: flex;
+
 }
 .hero-content {
   width: 387px;
+  position: absolute;
+  left: 650px;
+  top: 107px;
+}
+
+.hero-image {
+  /* position: absolute; */
+  width: 510px;
+  height: 510px;
+  filter: drop-shadow(24px 24px 0px rgba(255, 117, 0, 0.6));
+  border-radius: 8px;
+  left: 760px;
+  top: 140px;
+
 }
 .hero-heading {
   font-family: "Roboto Condensed";
