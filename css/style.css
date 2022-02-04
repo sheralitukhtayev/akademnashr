@@ -114,9 +114,15 @@ body  {
   width: 100%;
   top: 584px;
   /* font-family: 'Roboto', sans-serif; */
+  display: flex;
+  flex-direction: column;
 }
 .feature-list ul {
   list-style: none;
+}
+.feature-line-heading {
+  top: 821px;
+  left: 170px;
 }
 .feature-heading {
   font-family: 'Roboto Condensed';
