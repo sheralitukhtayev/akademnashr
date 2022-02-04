@@ -74,7 +74,7 @@ body  {
 .hero-content {
   width: 387px;
   position: absolute;
-  left: 600px;
+  left: 400px;
   top: 107px;
 }
 
@@ -84,7 +84,7 @@ body  {
   height: 510px;
   /* filter: drop-shadow(25px 25px 0px rgba(255, 117, 0, 0.7)); */
   border-radius: 8px;
-  left: 760px;
+  /* left: 760px; */
   top: 140px;
 
 }
