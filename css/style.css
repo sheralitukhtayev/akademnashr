@@ -10,9 +10,20 @@ body  {
 .site-header {
   width: 1440px;
   top: 5px;
+  display: flex;
 }
-.site-nav ul {
+.site-nav {
   list-style: none;
+  display: flex;
+  /* align-content: flex-end; */
+  align-items: center;
+  flex-direction: row;
+  position: static;
+  width: 700px;
+  height: 50px;
+  left: 480px;
+  top: 11px;
+  margin: 0px 150px;
 }
 .sitenav-link {
   font-family: "Roboto", sans-serif;
@@ -23,7 +34,9 @@ body  {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #000;
-  padding: 5px 5px;
+  padding: 5px 15px;
+  width: 68px;
+  height: 15px;
 }
 .sitenav-link {
   width: 92px;
@@ -35,8 +48,12 @@ body  {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 13px;
-  width: 152px;
+  width: 155px;
   height: 39px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   background-color: #ff7500;
   border-radius: 4px;
   text-decoration: none;
