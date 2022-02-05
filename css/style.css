@@ -3,6 +3,10 @@ body  {
   font-family: 'Roboto Condensed', sans-serif;
   width: 1440px;
 }
+.akademnashr-logo {
+  transition: opacity 4s ease;
+  /* background-color: #000; */
+}
 .akademnashr-logo:hover {
   opacity: 0.8;
 }
@@ -42,6 +46,7 @@ body  {
   padding: 5px 15px;
   width: 68px;
   height: 15px;
+  transition: color 0.4s ease;
 }
 .sitenav-link {
   width: 92px;
@@ -79,6 +84,7 @@ body  {
   color: #ffffff;
   letter-spacing: 0.5px;
   font-weight: bold;
+  transition: color 0.4s ease;
 }
 .main-link:hover {
   color: rgb(206, 201, 201);
@@ -351,4 +357,13 @@ footer ul {
 }
 .footer-group li {
   margin: 20px 0px;
+}
+.footer-group-link {
+  transition: color 0.4s ease;
+}
+.footer-group-link:hover {
+  color: #ff7500;
+}
+.footer-group-link:active {
+  color: #ff770071;
 }
