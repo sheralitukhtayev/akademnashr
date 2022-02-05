@@ -4,7 +4,7 @@ body  {
   width: 1440px;
 }
 .akademnashr-logo {
-  transition: opacity 4s ease;
+  transition: opacity 0.7s ease;
   /* background-color: #000; */
 }
 .akademnashr-logo:hover {
