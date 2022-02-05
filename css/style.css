@@ -3,6 +3,12 @@ body  {
   font-family: 'Roboto Condensed', sans-serif;
   width: 1440px;
 }
+.akademnashr-logo:hover {
+  opacity: 0.8;
+}
+.akademnashr-logo:active {
+  opacity: 0.5;
+}
 .site-header-cap {
   background-color: #ff7500;
   width: 1440px;
@@ -50,6 +56,12 @@ body  {
 .site-nav ul a {
   text-decoration: none;
 }
+.sitenav-link:hover {
+  color: #FF7500;
+}
+.sitenav-link:active {
+  color: #ff770091;
+}
 .main-link {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -67,6 +79,13 @@ body  {
   color: #ffffff;
   letter-spacing: 0.5px;
   font-weight: bold;
+}
+.main-link:hover {
+  color: rgb(206, 201, 201);
+}
+.main-link:active {
+  background-color: #ff77007a;
+  color: #fff;
 }
 .hero {
   width: 1440px;
@@ -247,6 +266,10 @@ footer {
   top: 2219px;
   color: #f8f8f8;
 }
+.footer-logo:hover {
+  /* color: #ff7500; */
+  background: #ff7500;
+}
 .footer-top {
   width: 1110px;
   top: 2275px;
@@ -305,6 +328,20 @@ footer ul {
   text-decoration: none;
   color: #ff7500;
 }
+.footer-logo:hover {
+  color: #f8f8f8;
+}
+.footer-logo:active {
+  fill: #ff7500;
+  opacity: 0.5;
+}
+.footer-group img:hover {
+  background-color: #ff7500;
+}
+.footer-group img:active {
+  background-color: #FF7500;
+  opacity: 0.5;
+}
 .footer-group   {
   /* color: ; */
   width: 400px;
@@ -331,4 +368,11 @@ footer ul {
 }
 .footer-group li {
   margin: 20px 0px;
+}
+.footer-group-link:hover {
+  color: #FF7500;
+  background-color: #000;
+}
+.footer-group-link:active {
+  color: #ff770065;
 }
