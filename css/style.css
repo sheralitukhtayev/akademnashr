@@ -5,7 +5,6 @@ body  {
 }
 .akademnashr-logo {
   transition: opacity 0.7s ease;
-  /* background-color: #000; */
 }
 .akademnashr-logo:hover {
   opacity: 0.8;
@@ -26,7 +25,6 @@ body  {
 .site-nav {
   list-style: none;
   display: flex;
-  /* align-content: flex-end; */
   align-items: center;
   width: 700px;
   height: 50px;
@@ -47,12 +45,15 @@ body  {
   width: 68px;
   height: 15px;
   transition: color 0.4s ease;
-}
-.sitenav-link {
   width: 92px;
   top: 0.5px;
-  /* font-family: 'Roboto', sans-serif; */
   list-style-type: none;
+}
+.sitenav-link:hover {
+  color: #FF7500;
+}
+.sitenav-link:active {
+  color: #ff770091;
 }
 .site-nav ul {
   display: flex;
@@ -60,12 +61,6 @@ body  {
 }
 .site-nav ul a {
   text-decoration: none;
-}
-.sitenav-link:hover {
-  color: #FF7500;
-}
-.sitenav-link:active {
-  color: #ff770091;
 }
 .main-link {
   font-family: 'Roboto', sans-serif;
@@ -80,7 +75,6 @@ body  {
   background-color: #ff7500;
   border-radius: 4px;
   text-decoration: none;
-  /* font-family: 'Roboto', sans-serif; */
   color: #ffffff;
   letter-spacing: 0.5px;
   font-weight: bold;
@@ -95,13 +89,12 @@ body  {
 }
 .hero {
   width: 1440px;
- top: 97px;
- background-color: #252420;
- color: #fff;
- /* font-family: 'Roboto', sans-serif; */
- display: flex;
- align-items: center;
-justify-content: space-between;
+  top: 97px;
+  background-color: #252420;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .hero-content {
   width: 387px;
@@ -109,7 +102,6 @@ justify-content: space-between;
   top: 107px;
   margin-left: 170px;
   margin-top: 50px;
-  /* margin-bottom: 40px; */
 }
 .hero-about {
   display: flex;
@@ -120,7 +112,6 @@ justify-content: space-between;
   margin-top: 5px;
 }
 .hero-image {
-  /* position: absolute; */
   width: 510px;
   height: 510px;
   /* filter: drop-shadow(25px 25px 0px rgba(255, 117, 0, 0.7)); */
@@ -154,12 +145,9 @@ justify-content: space-between;
 .feature {
   width: 1110px;
   top: 584px;
-  /* font-family: 'Roboto', sans-serif; */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* align-items: flex-start; */
-  /* top: 1065px; */
   margin: 200px 150px;
 }
 .feature-list {
@@ -216,7 +204,6 @@ justify-content: space-between;
 .sale {
   width: 1440px;
   top: 1555px;
-  /* font-family: 'Roboto', sans-serif; */
   color: #fff;
   background-color: #252420;
   display: flex;
@@ -224,8 +211,6 @@ justify-content: space-between;
   justify-content: space-between;
 }
 .sale-content {
-  /* display: flex; */
-  /* background-color: #f8f8f8; */
   position: absolute;
   width: 440px;
   height: 291px;
@@ -241,15 +226,6 @@ justify-content: space-between;
   letter-spacing: 0.5px;
 }
 .sale-text {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
-  size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.5px;
-  width: 440px;
-  height: 48px;
-}
-.sale-textt {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   size: 16px;
@@ -290,15 +266,12 @@ footer {
   top: 2275px;
   display: flex;
   flex-direction: row;
-  /* justify-items: center; */
   justify-content: space-between;
   align-items: center;
   padding: 0px;
-  /* position: absolute; */
   width: 1440px;
   height: 60px;
   left: 170px;
-  /* top: 225px; */
   margin: 15px 0px;
 }
 footer ul {
@@ -307,13 +280,9 @@ footer ul {
   list-style: none;
   justify-content: space-around;
   padding-inline-start: 0px;
-  /* padding-left: 10px; */
 }
 .footer-item {
   width: 150px;
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: space-around; */
   order: 1;
   flex-grow: 0;
   margin: 0px 16px;
@@ -325,7 +294,6 @@ footer ul {
   background-color: rgba(37, 36,32, 0.5);
 }
 .footer-bottom {
-  /* font-family: 'Roboto', sans-serif; */
   width: 1440px;
   height: 229px;
   top: 2441px;
@@ -337,14 +305,11 @@ footer ul {
   font-family: 'Roboto';
   font-weight: 400;
   display: inline-block;
-  /* text-align: left; */
   width: 224px;
   height: 229px;
   text-decoration: none;
-  /* color: #ff7500; */
 }
 .footer-group   {
-  /* color: ; */
   width: 400px;
   height: 19px;
   left: 0px;
@@ -357,7 +322,6 @@ footer ul {
   order: 0;
   flex: none;
   align-items: stretch;
-  /* justify-content: space-between; */
   flex-grow: 0;
   margin: 16px 0px;
 }
