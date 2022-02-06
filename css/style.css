@@ -164,7 +164,7 @@ header {
   background-color: #ff7500;
 }
 .feature {
-  width: 1110px;
+  width: 1050px;
   top: 584px;
   /* display: flex;
   flex-direction: row;
@@ -177,7 +177,6 @@ header {
   width: 1100px;
   top: 1065px;
   left: 170px;
-
 }
 .feature-list ul {
   list-style: none;
@@ -215,19 +214,19 @@ header {
 .featurelist-text {
   font-family: 'Roboto';
   line-height: 150%;
-  width: 314px;
+  width: 310px;
   font-size: 16px;
   letter-spacing: 0.5px;
   color: #000;
 }
 .feature-list {
-  width: 1440px;
+  width: 1110px;
   top: 1065px;
   display: block;
 }
 
 .sale {
-  width: 1110px;
+  width: 1100px;
   top: 1555px;
   color: #fff;
   background-color: #252420;
@@ -270,7 +269,7 @@ header {
   margin-right: 64px;
 }
 footer {
-  width: 1440px;
+  width: 1100px;
   top: 2219px;
   color: #f8f8f8;
   margin-top: 214px;
@@ -291,7 +290,7 @@ footer {
   margin-left: 180px;
 }
 .footer-top {
-  width: 1110px;
+  width: 1100px;
   top: 2275px;
   display: flex;
   flex-direction: row;
