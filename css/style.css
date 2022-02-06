@@ -274,12 +274,15 @@ footer {
   margin-top: 214px;
 }
 .footer-logo {
-  transition: opacity 0.4s ease;
+  color: #252420;
+  transition: opacity 0.5s ease,
+  color 0.5s ease;
 }
 .footer-logo:hover {
-  opacity: 0.8;
+  color: #FF7500;
 }
 .footer-logo:active {
+  color: #FF7500;
   opacity: 0.6;
 }
 .footer-top {
