@@ -274,7 +274,7 @@ footer {
   margin-top: 214px;
 }
 .footer-logo {
-  transition: opascity 2s ease;
+  transition: opacity 2s ease;
 }
 .footer-logo:hover {
   opacity: 0.8;
